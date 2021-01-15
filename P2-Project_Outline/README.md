@@ -7,12 +7,20 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-Include overview here
+Include overview here:
+This app is designed to allow you to keep track of all the cool new things that are coming out. Instead of all this info being spread across websites and mailing lists and push notifications, we're proposing a central location for users to be able to find what they're looking for, and have a countdown for it as well! Since it'll be user based our customers will be able to not only save the items they find but he app can also suggest similar events that the user may be interested in also share friends and fellow fans!  
+
+It's a great way to remember what's coming up and enjoy that anticipation all the way up to the Next Big Thing!
+
 ### Features
-Include Features here
+Include Features here:
+
 ### Technologies
-Include Technologies here
+Include Technologies here:
+C#, Angular, APIs
+
 ### What I'll Have to Learn
-Include what you will need to learn here
+Include what you will need to learn here:
+
 ### Project Tracker
-Link to your Trello board here
+Link to your Trello board here:

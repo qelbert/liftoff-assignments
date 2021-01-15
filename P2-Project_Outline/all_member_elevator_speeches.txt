@@ -1,0 +1,11 @@
+This app is designed to allow you to keep track of all the cool new things that are coming out. When your coworker tells you about an awesome new show they read about coming out this fall, here is where you keep track of it! When your friend mentions that the author you both love has a new release just before the holidays, the app reminds you to buy them a copy! When your favorite band releases tour dates, you'll know just when to go buy tickets.
+
+Instead of all this info being spread across websites and mailing lists and push notifications, now it's all in one place. It's a great way to remember what's coming up and enjoy that anticipation all the way up to the Next Big Thing!
+
+This is a tracker that allows users to tag and keep-up track of the debut dates of new releases in various fields-- whether entertainment, products, or otherwise. And for businesses, it can also be used to gauge interest in upcoming products.
+
+Nowadays with different types of medias coming out on different platforms and in quick succession it's very easy to forget or mix-up release dates of your favorite things. With this app, we're proposing a central location for users to be able to find what they're looking for, and have a countdown for it as well! Since it'll be user based our customers will be able to not only save the items they find but also be able to share!
+
+It's an app that keeps you aware of your cultural interests. It will notify you when a book or cd gets released, when a band you like has booked a show in town, a movie hits the theaters, etc. You tell the app what release news you want and it adds it to your calendar so you can keep it on you radar. The nice thing about it is that its dashboard shows you a countdown to events you're looking forward to.
+
+This tracker will allow you to enter events or media releases like books, movies, cds, etc. and their release dates so you can keep track of when they are coming up, and be alerted.  If you are an artist, you can see the users you have in an area and get an idea of their similar interests.  The app can also suggest similar events that the user may be interested in
