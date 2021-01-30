@@ -15,12 +15,19 @@ It's a great way to remember what's coming up and enjoy that anticipation all th
 ### Features
 Include Features here:
 
+Authentication, API's (internal and external), a Counter
+
 ### Technologies
 Include Technologies here:
+
 C#, Angular, APIs
 
 ### What I'll Have to Learn
 Include what you will need to learn here:
 
+calling external API's
+
 ### Project Tracker
 Link to your Trello board here:
+
+https://trello.com/b/8z5WJBz8/projectboard1
