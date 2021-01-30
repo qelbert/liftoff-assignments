@@ -11,6 +11,8 @@ namespace Countdown_ASP.NET.Models
 {
     public class Collection1Entity : UniqueEntity
     {
+        public EntityType EntityType { get; set; }
+
         public string Title { get; set; }
 
         public string CreatorName { get; set; }
@@ -26,10 +28,19 @@ namespace Countdown_ASP.NET.Models
         [NotNull]
         [Required]
         [StringLength(
-          100,
-          MinimumLength = 10,
-          ErrorMessage = "Title must be between 10 and 100 characters"
-        )]
+            100,
+            MinimumLength = 10,
+            ErrorMessage = "Title must be between 10 and 100 characters"
+            )]
+        public string Title { get; set; }
+
+        [NotNull]
+        [Required]
+        [StringLength(
+            100,
+            MinimumLength = 10,
+            ErrorMessage = "Title must be between 10 and 100 characters"
+            )]
         public string Title { get; set; }
 
         [NotNull]
