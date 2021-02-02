@@ -31,7 +31,9 @@ namespace Countdown_ASP.NET
         {
             services.AddControllers();
 
-            services.AddDbContext<Collection1DbContext>(o => o.UseSqlite("Data Source=sqlite.db;"));
+            services.AddDbContext<ProductDbContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+
+            //services.AddDbContext<ProductDbContext>(o => o.UseSqlite("Data Source=sqlite.db;"));
 
             services.AddSwaggerGen(
               options => {
@@ -40,7 +42,7 @@ namespace Countdown_ASP.NET
                       new OpenApiInfo {
                           Version = "v1",
                           Title = "CountDown API",
-                          Description = "REST API for managing CountDown Entities"
+                          Description = "REST API for managing CountDown Products"
                       }
                   );
               }
@@ -74,7 +76,7 @@ namespace Countdown_ASP.NET
 
             // run migrations on startup
             var dbContext = app.ApplicationServices.CreateScope()
-                .ServiceProvider.GetService<Collection1DbContext>();
+                .ServiceProvider.GetService<ProductDbContext>();
             dbContext.Database.Migrate();
 
         }

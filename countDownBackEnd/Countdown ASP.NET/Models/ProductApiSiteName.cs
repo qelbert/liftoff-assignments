@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 
 namespace Countdown_ASP.NET.Models
 {
-    public class EntityType
+    public class ProductApiSiteName
     {
         public int Id { get; set; }
-        public string EntityTypeName { get; set; }
+
+        public string Name { get; set; }
+
+        public List<ProductApiRequestUrl> RequestUrls { get; set; }
     }
 }
