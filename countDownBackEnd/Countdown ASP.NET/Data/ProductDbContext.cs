@@ -15,7 +15,9 @@ namespace Countdown_ASP.NET.Data
 
         public DbSet<ProductType> Type { get; set; }
 
-        public DbSet<ProductVendor> Vendors { get; set; }
+        public DbSet<ProductSingleVendor> SingleVendors { get; set; }
+
+        public DbSet<ProductMultiVendor> MultiVendors { get; set; }
 
         public DbSet<User> Users { get; set; }
 

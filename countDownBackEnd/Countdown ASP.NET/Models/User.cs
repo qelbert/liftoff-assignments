@@ -10,9 +10,6 @@ namespace Countdown_ASP.NET.Models
         public int Id { get; set; }
         public UserRole Role { get; set; }
 
-        //public ProductVendor Vendor { get; set; } // CAUSED AN EXCEPTION WHEN RUNNING "DOTNET RUN"
-
-        //public int VendorId { get; set; } // CAUSED AN EXCEPTION WHEN RUNNING "DOTNET RUN"
 
         //public ProductContributor Contributor { get; set; }
 
@@ -25,10 +22,17 @@ namespace Countdown_ASP.NET.Models
 
         public string Password { get; set; }
 
+        public User(string name, string email, string password)
+        {
+            Name = name;
+            Email = email;
+            Password = password;
+            RoleId = 1; // assuming the number "1" represents this level of authorization
+        }
     }
 }
 
-// Unauthenticated user logs in, receives UserId. Creates a product; the product pulls in their UserId. The form on which the product is created will have a checkbox that asks if this is the user's prodcut -- 
+// Unauthenticated user logs in, receives UserId. Creates a product; the product pulls in their UserId. The form on which the product is created will have a checkbox that asks if this is the user's product -- 
 // meaning they have rights to sell and promote the product -- and when checked, a VendorId and profile will be created (on which their UserName will automatically be added, with the option for the Vendor to change the VendorName;
 // like for a music artist who's posting on behalf of a band under a bandname. The VendorId will be linked to their UserId and to any products treate, where they check that box. The Vendor's name can then be added to a 
 // dropdown list of Vendor names for other users to select from if they are creating their own 'events'. The VendorId is seperate from the UserId so 
